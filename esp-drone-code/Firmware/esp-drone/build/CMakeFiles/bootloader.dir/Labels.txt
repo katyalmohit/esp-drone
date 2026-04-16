@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/CMakeFiles/bootloader
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/CMakeFiles/bootloader.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/CMakeFiles/bootloader-complete.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/mohitkatyal/esp/esp-drone/esp-drone-code/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
