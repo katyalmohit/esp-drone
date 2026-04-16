@@ -6,31 +6,47 @@
 git clone git@github.com:katyalmohit/esp-drone.git
 ```
 
-### 2. Navigate to the ESP-IDF directory
+### 2. Clone ESP-IDF v5.0.7
+
+Clone the official ESP-IDF repository (version 5.0.7) into the project:
 
 ```bash
-cd esp-drone/esp-idf-v5.0.7/
+git clone -b v5.0.7 --recursive https://github.com/espressif/esp-idf.git esp-idf-v5.0.7
 ```
 
-### 3. Export the ESP-IDF environment
+### 3. Navigate to the ESP-IDF directory
+
+```bash
+cd esp-idf-v5.0.7/
+```
+
+### 4. Install ESP-IDF (first time only)
+
+```bash
+./install.sh
+```
+
+### 5. Export the ESP-IDF environment
 
 ```bash
 . ./export.sh
 ```
 
-### 4. Navigate to the firmware directory
+> **Note:** You'll need to run `. ./export.sh` in every new terminal session before using `idf.py`.
+
+### 6. Navigate to the firmware directory
 
 ```bash
 cd ../esp-drone-code/Firmware/esp-drone/
 ```
 
-### 5. Build the firmware
+### 7. Build the firmware
 
 ```bash
 idf.py build
 ```
 
-### 6. (Optional) Access menuconfig
+### 8. (Optional) Access menuconfig
 
 To configure project settings:
 
@@ -44,7 +60,7 @@ idf.py menuconfig
 > idf.py build
 > ```
 
-### 7. Flash the firmware
+### 9. Flash the firmware
 
 Replace `PORT` with your device's port (e.g., `/dev/ttyUSB0` on Linux, `COM3` on Windows):
 
