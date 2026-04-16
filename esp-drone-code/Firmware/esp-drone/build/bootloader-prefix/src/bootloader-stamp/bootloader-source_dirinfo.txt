@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/mohitkatyal/esp/esp-drone/esp-idf-v5.0.7/components/bootloader/subproject
+source_dir=/Users/mohitkatyal/esp/test/esp-idf-v5.0.7/components/bootloader/subproject
 work_dir=
 

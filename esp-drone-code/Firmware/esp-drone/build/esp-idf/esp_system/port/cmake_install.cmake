@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mohitkatyal/esp/esp-drone/esp-idf-v5.0.7/components/esp_system/port
+# Install script for directory: /Users/mohitkatyal/esp/test/esp-idf-v5.0.7/components/esp_system/port
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
