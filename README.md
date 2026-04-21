@@ -3,7 +3,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:katyalmohit/esp-drone.git
+git clone https://github.com/katyalmohit/esp-drone.git
 ```
 
 ### 2. Clone ESP-IDF v5.0.7
